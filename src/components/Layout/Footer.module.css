@@ -1,0 +1,36 @@
+.footer {
+  justify-content: space-around;
+  display: flex;
+  background: rgb(42, 223, 255);
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-title {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  width: 50%;
+}
+
+.footer-icon {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-icon ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-icon ul li {
+  margin: 0px 25px;
+}
+
+.footer-icon ul li img {
+  height: 50px;
+}

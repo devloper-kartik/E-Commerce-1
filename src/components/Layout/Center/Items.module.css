@@ -1,0 +1,47 @@
+.Item {
+  cursor: pointer;
+  margin: 0px 80px;
+  /* padding: 0px 80px; */
+}
+
+.Item h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Image {
+  overflow: hidden;
+  width: 250px;
+}
+
+.Image img {
+  transition: transform 1s;
+  height: 250px;
+}
+
+.Image img:hover {
+    transform: scale(2);
+  }
+
+.Buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Buy p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Buy button {
+  background: rgb(42, 223, 255);
+  padding: 7px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+}

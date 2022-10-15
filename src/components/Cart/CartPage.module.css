@@ -1,0 +1,42 @@
+.cart {
+  text-align: center;
+  font-size: 25px;
+}
+
+.cart h2 {
+  font-family: cursive;
+}
+.item {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.item span {
+  padding: 0 15px;
+  border-bottom: 3px solid black;
+}
+
+.order {
+  padding:30px 10px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.order span {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.order button {
+  background: rgb(42, 223, 255);
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+}

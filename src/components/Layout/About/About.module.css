@@ -1,0 +1,31 @@
+.about {
+  padding: 0px 20px;
+  padding-bottom: 40px;
+}
+
+.about h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+.group {
+    width: 70%;
+    margin: 0 auto;
+  display: block;
+}
+
+.group img {
+  height: 250px;
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 100px;
+}
+
+.group p{
+    color: rgb(128, 128, 128);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

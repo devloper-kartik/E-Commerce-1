@@ -1,0 +1,37 @@
+.login {
+  width: 90%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.login h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.login label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login input{
+    margin: 15px 0px;
+    border: 2px solid rgb(42, 223, 255);
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.login button{
+    padding: 15px 60px;
+    background: rgb(42, 223, 255);
+    border: none;
+    transition: 1s;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.login button:hover{
+    border-radius: 30px;
+}

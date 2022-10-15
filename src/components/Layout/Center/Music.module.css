@@ -1,0 +1,11 @@
+.Music {
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.Music h1{
+  font-family: cursive;
+  text-align: center;
+}
